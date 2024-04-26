@@ -7,9 +7,9 @@ import {
   faSquare,
   faVolumeUp,
   faRedo,
-  faPlus // Assuming you have this imported correctly
+  faPlus 
 } from '@fortawesome/free-solid-svg-icons';
-import Published from '../assets/Published.png'; // Assuming this is the image you want to include
+import Published from '../assets/Published.png'; 
 
 const Hero = () => {
   return (
@@ -46,28 +46,31 @@ const Hero = () => {
         <p className="text-white text-center text-3xl" style={{ paddingTop: '20%' }}>9 + 6 + 7x - 2x - 3</p>
       </div>
       <div className="flex items-center justify-between mt-4 w-full max-w-xs ml-80" style={{ marginLeft: '40%' }}>
-        <FontAwesomeIcon icon={faRedo} className="h-6 w-6 text-gray-500" />
-        <div className="bg-blue-500 p-1 rounded-full">
+        <FontAwesomeIcon icon={faRedo} className="h-6 w-6 text-blue-700" />
+        <div className="bg-blue-700 p-1 rounded-full">
             <FontAwesomeIcon icon={faArrowRight} className="h-6 w-6 text-white" />
         </div>
-        <p className="text-blue-500">1</p>
-        <div className="bg-blue-500 p-1 rounded-full">
+        <p className="text-xl">1</p>
+        <div className="bg-blue-700 p-1 rounded-full">
             <FontAwesomeIcon icon={faArrowRight} className="h-6 w-6 text-white" />
         </div>
-        <FontAwesomeIcon icon={faSquare} className="h-6 w-6 text-blue-500" />
+        <FontAwesomeIcon icon={faSquare} className="h-6 w-6 text-blue-700" />
       </div>
       <div className="flex justify-between items-center w-full mt-4">
         <img src={Published} alt="Published" style={{ height: '100px', marginLeft: '5%' }} />
-        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300" style={{ marginRight: '5%' }}>
-          <FontAwesomeIcon icon={faPlus} className="mr-2" />
-          Create Flashcard
-        </button>
+        <div className="flex items-center">
+          <div className="bg-blue-700 p-2 rounded-full ">
+            <FontAwesomeIcon icon={faPlus} className="h-6 w-8 text-white font-bold" />
+          </div>
+          <p className="text-3xl text-blue-700 font-bold  ml-3">Create Flashcard</p>
+        </div>
       </div>
     </div>
   );
 }
 
 export default Hero;
+
 
 
 
