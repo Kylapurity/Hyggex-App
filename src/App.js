@@ -1,10 +1,10 @@
-
+import Navbar from "./Componets/Navbar";
 
 function App() {
   return (
-    <di>
-      
-    </di>
+    <div>
+      <Navbar />
+    </div>
   );
 }
 
