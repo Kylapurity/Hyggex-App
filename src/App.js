@@ -1,13 +1,12 @@
-import Navbar from "./Componets/Navbar";
-import Hero from "./Componets/Hero";
-import FAQ from "./Componets/FAQ";
-
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+import FAQ from "./Components/FAQ";
 function App() {
   return (
     <div>
       <Navbar />
       <Hero />
-      <FAQ />
+      <FAQ/>
     </div>
   );
 }
