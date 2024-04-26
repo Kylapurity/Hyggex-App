@@ -38,7 +38,7 @@ const Hero = () => {
           background: 'linear-gradient(222.94deg, #051A91 -4.31%, #061C93 14.41%, #2284F1 81.88%, #1F80EB 103.81%)',
           marginLeft: '30%',
           borderRadius: '42.51px',
-        }}>
+        }} id='flashcard'>
         <div className="w-full flex justify-between pt-2">
           <FontAwesomeIcon icon={faVolumeUp} className="h-6 w-6 text-white" />
           <FontAwesomeIcon icon={faLightbulb} className="h-6 w-6 text-white" />
