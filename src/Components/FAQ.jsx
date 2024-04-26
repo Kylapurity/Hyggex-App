@@ -25,7 +25,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className='flex flex-col p-20'>
+    <div className='flex flex-col p-40'  id="faq">
       <h1 className='text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-blue-500 mb-8'>FAQ</h1>
       {faqData.map((item, index) => (
         <div key={index} className="border border-blue-500 p-3 rounded-lg mb-8 w-3/4 ">
